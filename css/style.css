@@ -116,6 +116,16 @@ header .site-title{
      
 }
 
+.logo img{
+    padding-top: 65px;
+    height: 200px;
+    position: relative;
+    justify-content: center;
+    margin: -70px 100px;
+
+    
+}
+
 
 
 
@@ -380,4 +390,137 @@ header .site-title{
 
 .footer-copyright{
     color:white;
+}
+
+@media (max-width: 1200px){
+    .containers{
+        margin: 0 150px;
+    }
+
+    .logo{
+        margin: 50px;
+        margin-top: -20px;
+        margin-bottom: 20px;
+    }
+    .logo img{
+        height: 300px ;
+    }
+    
+    .navbar-toggler.collapsed{
+        height:30px;
+    }
+
+
+
+    
+
+    .navbar-toggler{
+        display: block;
+        font-size: 10px;
+        line-height: 10px;
+        text-align: left;
+    }
+    .nav-item{
+        width: 100%;
+        text-align: center;
+    }
+
+    .close{
+        display: none;
+    }
+
+    .nav-item li a.active,
+    .nav-item li a:hover{
+        border-bottom: none;
+    }
+
+    .nav-item li{
+        display: block;
+        padding: 15px 0;
+        border-bottom: 1px solid #eaeaeb;
+        margin: 0;
+        width: 100%;
+
+    }
+
+    .border.site-btn.btn-span{
+        
+        font-size: 6px;
+    }
+
+    .site-slider-two .product{
+        height: 8rem;
+        position:relative;
+        overflow: hidden;
+    }
+
+
+
+    .gallery img{
+        height: 300px;
+
+    }
+    
+
+    .frame{
+        width:100%;
+        
+    }
+
+    .description{
+        font-size: 14px;
+    }
+
+
+    
+}
+
+@media (max-width: 800px){
+    .containers{
+        margin: 0 20px;
+    }
+
+
+    .logo{
+        margin-bottom: 20px
+    }
+
+
+    .logo img{
+        height: 150px;
+        
+        
+    }
+    
+
+    .gallery img{
+        height: 150px;
+    }
+    .contact-form{
+        margin: 0 10%;
+    }
+
+    .input-fields .input,
+    .msg textarea{
+        margin: 10px 0;
+    }
+ 
+}
+
+@media (max-width: 400px){
+    .social{
+        font-size: 20px;
+    }
+
+    .navbar-toggler.collapsed{
+        height: 30px;
+    }
+
+
+    .contact-form{
+        margin: 0 2%;
+        padding: 10px 10px;
+    }
+
+
 }
